@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/xiaolazi',
+  base: '/demo/',
   lang: 'zh-CN', //语言，可选 en-US
   title: "VitePress",
   description: "我的vitepress",
