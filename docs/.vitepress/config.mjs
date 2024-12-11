@@ -14,7 +14,7 @@ export default defineConfig({
   ignoreDeadLinks: false, //关闭忽略死链，不配置即可，非常不建议设置为true
   //fav图标
   head: [
-    // ['link',{ rel: 'icon', href: '/xiaolazi/logo.jpg'}],
+    // ['link',{ rel: 'icon', href: '/logo.jpg'}],
     [
       'link',
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
@@ -29,7 +29,6 @@ export default defineConfig({
     ]
   ],
   themeConfig: {
-    logo: '/xiaolazi/logo.jpg',
     //返回顶部文字修改
     returnToTopLabel:'返回顶部', 
     // https://vitepress.dev/reference/default-theme-config
